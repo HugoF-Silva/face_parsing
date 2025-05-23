@@ -16,8 +16,7 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-# look in the repo root...
+# only look for packages in the root
 where = ["."]
-# but only include your package directory (and its sub-packages)
+# only include the face_parsing dir (and its subpackages)
 include = ["face_parsing*"]
-# everything else (makeup/, modules/, etc.) will be ignored
