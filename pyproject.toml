@@ -15,5 +15,9 @@ dependencies = [
   "opencv-python>=4.5.3.56"
 ]
 
-[project.urls]
-"Source" = "https://github.com/your-username/face-parsing.PyTorch"
+[tool.setuptools.packages.find]
+# look in the repo root...
+where = ["."]
+# but only include your package directory (and its sub-packages)
+include = ["face_parsing*"]
+# everything else (makeup/, modules/, etc.) will be ignored
