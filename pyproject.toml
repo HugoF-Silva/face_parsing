@@ -12,7 +12,8 @@ dependencies = [
   "torch>=1.8.0",
   "torchvision>=0.9.0",
   "numpy>=1.19.5",
-  "opencv-python>=4.5.3.56"
+  "opencv-python>=4.5.3.56",
+  "resnet"
 ]
 
 [tool.setuptools.packages.find]

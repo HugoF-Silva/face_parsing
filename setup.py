@@ -8,7 +8,8 @@ setup(
         "torch>=1.7.0",
         "opencv-python",
         "numpy>=1.19.5",
-        "opencv-python>=4.5.3.56"
+        "opencv-python>=4.5.3.56",
+        "resnet"
     ],
     author="zllrunning",
     description="BiSeNet face parsing",
