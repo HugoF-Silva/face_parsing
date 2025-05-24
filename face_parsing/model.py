@@ -1,6 +1,9 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
 
+import sys
+import tensorflow as tf
+sys.modules["keras"] = tf.keras
 
 import torch
 import torch.nn as nn
