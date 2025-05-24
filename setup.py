@@ -10,7 +10,8 @@ setup(
         "numpy>=1.19.5",
         "opencv-python>=4.5.3.56",
         "resnet==0.1",
-        "tensorflow"
+        "tensorflow",
+        "keras"
     ],
     author="zllrunning",
     description="BiSeNet face parsing",
